@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgb(240, 214, 230, 0.5) !important;
+  font-weight: 600;
+  height: 50px !important;
+  padding: 10px !important;
+  position: sticky;
+  top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.material-icons {
+  font-size: 17px;
+  color: #ddaacc;
+  vertical-align: middle;
+}
+
+.intro {
+  background-image: url(img/bg4.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-h1 {
+  font-weight: 700;
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 80px;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.container-intro {
+  margin: 150px 0px 0px 40px;
+}
+
+.intro-p {
+  font-family: "Varela Round", sans-serif;
+  color: #644258;
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
+
+.button-intro {
+  width: 180px;
+  padding: 15px;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.button-intro:hover {
+  color: white !important;
+  background-color: #644258 !important;
+}
+
+.button-intro:active {
+  color: #644258 !important;
+  background-color: #ddaacc !important;
+}
+
+.intro-h2 {
+  color: #afbdbb;
+  text-shadow:
+    -1px -1px 0 #525958,
+    1px -1px 0 #525958,
+    -1px 1px 0 #525958,
+    1px 1px 0 #525958;
+  font-family: "Belanosima", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.p-intro-2 {
+  letter-spacing: 4px;
+  font-size: 10px;
+}
+
+.head-2 {
+  color: #ddaacc;
+  font-size: 50px;
+  text-shadow:
+    -1px -1px 0 #525958,
+    1px -1px 0 #525958,
+    -1px 1px 0 #525958,
+    1px 1px 0 #525958;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.p-info {
+  font-size: 18px;
+}
+
+.c-about {
+  border: 0.5px solid lightgray;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.h5-info {
+  color: #ddaacc;
+  text-shadow:
+    -0.2px -0.2px 0 #525958,
+    0.2px -0.2px 0 #525958,
+    -0.2px 0.2px 0 #525958,
+    0.2px 0.2px 0 #525958;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.p-about {
+  color: #afbdbb;
+  font-weight: 600;
+}
+
+
+
+.banner {
+  margin-top: -160px;
+}
